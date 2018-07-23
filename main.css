@@ -1,0 +1,184 @@
+html{
+    background-color: rgba(0, 0, 0, 0.904);
+}
+    /* Barra de Navegação */
+#menu {
+    background-color:#161616;
+    width: 80%;
+
+    position: sticky;
+    top: -50px;
+    padding-left: 20%;
+
+}
+
+#menu a{
+    display: inline-block;
+    font-size: 150%;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    background-color: #161616;
+    transition: top 0.3s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+}
+#menu a:hover{
+    background-color: aqua;
+    color: #161616;
+
+}
+/*=============================================================*/
+            
+
+#background{  
+    /* Imagem de fundo Principal */
+    padding-top: 25%;
+    background-image: url(images/2.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-bottom: 25%;   
+}
+#nome{
+    /* Sobrepõe o background com texto e centraliza */
+    position: absolute;
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 600%;
+    padding: 0.3%;
+    letter-spacing: 16px;
+}
+.nome-titulo{
+    /* cria borda envolta do nome */
+    border: 1px solid #fff;
+    text-align: center;
+    background-color: #ffffff1e;
+    
+}
+
+/*=============================================================*/
+                /* Container Sobre mim */                                   
+
+.sobre{
+    /* ajusta o conteudo dentro do container */
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+.container{
+/*======== Define o tamanho fixo de cada container ======== */
+    height: 70vh;  
+
+}
+
+.sobre-imagem{
+/*======== Ajusta a imagem dentro do container ======== */
+    width: 19%;
+    margin: 10px;
+  
+}
+
+.sobre-imagem img{
+    /* ======== Ajusta o tamanho da imagem de perfil ======== */
+    width: 100%;
+    border: 5px solid #fff;
+    border-radius: 100%;
+}
+
+/*======== Configuracoes do texto no container sobre ============*/
+.sobre-descricao{
+    padding-left: 1%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif 
+}
+.sobre-h2{
+    color: #fff;
+    font-size: 180%;   
+}
+.sobre-sub{
+    color: #fff;
+    font-size: 120%;
+    text-align: center;
+}
+.linha{
+    height: 3px;
+    border: none;
+    background-color: aqua
+}
+.sobre-nome{
+    color: aqua;
+    font-size: 180%;
+}
+.sobre-tag{
+    color:aqua;
+    font-size: 180%;
+}
+.sobre-ola{
+    font-size: 180%;
+    text-align: left,
+}
+.sobre-p{
+    text-align: center;
+}
+
+/*=============================================================*/
+                    /* Container Skills */    
+
+.container-skills{
+    height: auto;
+    padding-bottom: 10%;
+}
+#skills{
+    overflow: hidden;
+    display: inline-flex;
+    text-align: center;
+    width: 100%;
+}
+#skills div{
+    
+    width: 100%;
+    height: 30%;
+    color: #fff;
+    font-size: 220%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet       MS', sans-serif;
+    margin: 1%;
+}   
+#skills div a{
+    
+    color: aqua;
+    font-size:  80%;
+    border: none;
+}
+ 
+
+/*=============================================================*/
+                    /* Container Projetos */   
+                    
+#borda-projetos{
+    color: #fff;
+    text-align: center;
+    font-size: 330%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 5%;
+}
+.linha-projetos{
+    height: 5px;
+    border: none;
+    background-color: aqua;
+    width: 20% ;
+}
+
+
+
