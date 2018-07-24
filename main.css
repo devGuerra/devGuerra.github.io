@@ -1,31 +1,31 @@
 html{
     background-color: rgba(0, 0, 0, 0.904);
+    font-size: 120%;
 }
     /* Barra de Navegação */
-#menu {
+#navbar {
     background-color:#161616;
-    width: 80%;
-
-    position: sticky;
+    width: 120%;
+    position: fixed;
     top: -50px;
-    padding-left: 20%;
+    padding-left: 14%;
+    transition: top 0.3s;
 
 }
 
-#menu a{
+#navbar a{
+
     display: inline-block;
-    font-size: 150%;
+    font-size: 1.5em;
     color: #fff;
     text-align: center;
-    padding: 15px;
+    padding: 10px;
     text-decoration: none;
-    background-color: #161616;
-    transition: top 0.3s;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
     
 }
-#menu a:hover{
+#navbar a:hover{
     background-color: aqua;
     color: #161616;
 
@@ -33,34 +33,35 @@ html{
 /*=============================================================*/
             
 
-#background{  
+.background{  
     /* Imagem de fundo Principal */
-    padding-top: 25%;
+    padding-top: 21%;
     background-image: url(images/2.png);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
     box-sizing: border-box;
-    padding-bottom: 25%;   
+    padding-bottom: 31%;
+    
+
+    
 }
-#nome{
-    /* Sobrepõe o background com texto e centraliza */
-    position: absolute;
-    width: 60%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.cont-back{
+
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+.background .nome-titulo {
     color: #fff;
-    font-size: 600%;
-    padding: 0.3%;
-    letter-spacing: 16px;
-}
-.nome-titulo{
-    /* cria borda envolta do nome */
+    font-size: 10ch;
     border: 1px solid #fff;
     text-align: center;
     background-color: #ffffff1e;
-    
+    margin-left: 15% ;
+    margin-right: 15%;
+
+
 }
 
 /*=============================================================*/
@@ -105,11 +106,11 @@ html{
 }
 .sobre-h2{
     color: #fff;
-    font-size: 180%;   
+    font-size: 1.5em;   
 }
 .sobre-sub{
     color: #fff;
-    font-size: 120%;
+    font-size: 1em;
     text-align: center;
 }
 .linha{
@@ -119,15 +120,15 @@ html{
 }
 .sobre-nome{
     color: aqua;
-    font-size: 180%;
+    font-size: 2em;
 }
 .sobre-tag{
     color:aqua;
-    font-size: 180%;
+    font-size: 2em;
 }
 .sobre-ola{
-    font-size: 180%;
-    text-align: left,
+    font-size: 2em;
+    text-align: center
 }
 .sobre-p{
     text-align: center;
@@ -137,28 +138,32 @@ html{
                     /* Container Skills */    
 
 .container-skills{
+    padding-top: 5%;
     height: auto;
     padding-bottom: 10%;
 }
-#skills{
+.skills{
     overflow: hidden;
     display: inline-flex;
     text-align: center;
     width: 100%;
 }
-#skills div{
+.skills div{
     
     width: 100%;
     height: 30%;
     color: #fff;
-    font-size: 220%;
+    font-size: 1em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet       MS', sans-serif;
     margin: 1%;
 }   
-#skills div a{
+.skills-main{
+    font-size: 2em;
+}
+.skills-sub{
     
     color: aqua;
-    font-size:  80%;
+    font-size:  1.25em;
     border: none;
 }
  
@@ -169,7 +174,7 @@ html{
 #borda-projetos{
     color: #fff;
     text-align: center;
-    font-size: 330%;
+    font-size: 3em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-top: 5%;
 }
