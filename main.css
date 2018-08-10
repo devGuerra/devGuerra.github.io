@@ -95,8 +95,9 @@ html{
 .sobre-imagem img{
     /* ======== Ajusta o tamanho da imagem de perfil ======== */
     width: 100%;
-    border: 5px solid #fff;
+    border: 5px solid #FFF;
     border-radius: 100%;
+
 }
 
 /*======== Configuracoes do texto no container sobre ============*/
