@@ -1,13 +1,14 @@
 html{
-    background-color: rgba(0, 0, 0, 0.904);
+    background-color: #000000;
     font-size: 120%;
 }
     /* Barra de Navegação */
+ 
 #navbar {
     background-color:#161616;
     width: 120%;
     position: fixed;
-    top: -50px;
+    top: -70px;
     padding-left: 14%;
     transition: top 0.3s;
 
@@ -19,10 +20,10 @@ html{
     font-size: 1.5em;
     color: #fff;
     text-align: center;
-    padding: 10px;
+    margin: 10px;
     text-decoration: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+    vertical-align: middle;
     
 }
 #navbar a:hover{
@@ -30,18 +31,21 @@ html{
     color: #161616;
 
 }
+#navbar a img{
+    width: 40px;
+    vertical-align: middle;
+}
 /*=============================================================*/
             
 
 .background{  
     /* Imagem de fundo Principal */
     padding-top: 21%;
-    background-image: url(images/2.png);
+    background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-size: cover;
     box-sizing: border-box;
-    padding-bottom: 31%;
+    height: 950px;;
     
 
     
@@ -53,16 +57,11 @@ html{
     
 }
 .background .nome-titulo {
-    color: #fff;
+
     font-size: 10ch;
-    border: 1px solid #fff;
-    text-align: center;
-    background-color: #ffffff1e;
-    margin-left: 15% ;
-    margin-right: 15%;
-
-
+    
 }
+
 
 /*=============================================================*/
                 /* Container Sobre mim */                                   
@@ -81,7 +80,8 @@ html{
 
 .container{
 /*======== Define o tamanho fixo de cada container ======== */
-    height: 70vh;  
+    height: 70vh; 
+    background-color: #161616 
 
 }
 
@@ -142,6 +142,7 @@ html{
     padding-top: 5%;
     height: auto;
     padding-bottom: 10%;
+    background-color: #171717
 }
 .skills{
     overflow: hidden;
@@ -207,3 +208,18 @@ html{
     border: 3px solid aqua
 }
 
+/*=============================================================*/
+                    /* Container Footer */   
+
+
+.container-footer{
+    height: 75px;
+    background-color: #000000;
+}
+.copyright{
+    vertical-align: middle;
+    display: inline-flex;
+    margin: 30px;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
