@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+body, html{
+    height: auto;
+    display: block;
+    min-height: 100%;
+    min-width: 100%;
+    background-color: #7159c1;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+
+
+.itemNone{
+    display: none;
+}
+
+.navBar{
+    display: inline-block;
+    position: fixed;
+    background-color: #7159c1;
+    width: 3em;
+    height: 100%;
+    box-shadow: 3px 0px 23px 1px rgba(0,0,0,0.29);
+    top: 0;
+    z-index: 1;
+}
+.navBar ul{
+    color: #fff;    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;  
+}
+.navBar ul li a img{
+    height: 2rem;
+}
+.iconHome{
+    margin: 1em 0 0 0;
+}
+.iconAbout{
+    margin: 2em 0 0 0;
+}
+.iconProjects{
+    margin: 0.5em 0 0 0;
+}
+.iconContact{
+    margin: 0.5em 0 0em 0;
+}
+.mediaLinksGroup{
+    position: absolute;
+    bottom: 15px;
+    left: 12.5px;
+
+}
+.mediaIcons img{
+    width: 1.4em;
+    margin-top: 10px
+}
+/* //////////////// */
+
+.home{
+    margin-left: 3em;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+.contentHome{
+    
+    height: 100%;
+    width: 100%;
+    
+}
+.homeText{
+    display: inline-block;
+    position: fixed;
+    width: 48%;
+    height: 100%;
+    animation: entrance 1s ease;
+}
+.homeText div{
+    display: inline-block;
+}
+.homeContentText p{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 800;
+    font-size: 56px;
+    font-size: 5em;
+    color: #fff;
+}
+.homeContentText{
+    padding: 56% 5%;
+}
+
+@keyframes entrance{
+    from {
+        opacity: 0; 
+        transform: translate3d(-50%, 0, 0 )
+    }
+    to {
+        opacity: 1; 
+        transform: translate3d(0, 0, 0 )
+    }
+}
+.homeCode{
+    position: fixed;
+    display: inline-block;
+    width: 48%;
+    height: 100%;
+    right: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 800;
+    font-size: 56px;
+    color: #fff;
+    
+    
+}
+.homeCodeText p{
+    margin: 0;
+    margin-top: 2em;
+    text-align: center;
+    animation: entranceCode 1s ease
+}
+
+@keyframes entranceCode{
+    from {
+        opacity: 0; 
+        transform: translate3d(0, -200%, 0 )
+    }
+    to {
+        opacity: 1; 
+        transform: translate3d(0, 0, 0 )
+    }
+}
+.homeCodeImg{
+    padding-left: 1em;
+    margin-top: 2em;
+    text-align: center;
+    animation: codeImg 1s ease;
+}
+@keyframes codeImg{
+    from{
+        opacity: 0;
+        transform: translate3d(100%, 0, 0)
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0, 0, 0)
+        
+    }
+}
+.homeCodeImg img{
+
+    width: 5em
+}
+
+
+/* //////////////// */
+
+.about{
+    margin-left: 3em;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+.aboutText{
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+    padding: 15% 6% 0;
+    text-align: justify;
+    animation: aboutText 0.5s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+@keyframes aboutText{
+    from {
+        opacity: 0; 
+        
+    }
+    to {
+        opacity: 1; 
+         
+    }
+}
+.aboutText h1{
+    color: #fff
+}
+.aboutText p{
+    color: #fff;
+}
+.aboutPhoto{
+    display: inline-block;
+    position: fixed;
+    width: 49%;
+    height: 100%;
+    padding-top: 10%;
+    animation: aboutPhoto 1s cubic-bezier(0.445, 0.05, 0.55, 0.95)
+}
+@keyframes aboutPhoto{
+    from {
+        opacity: 0; 
+        transform: translate3d(0, 25% , 0)
+    }
+    to {
+        opacity: 1; 
+        transform: translate3d(0, 0 , 0)
+    }
+}
+.aboutPhoto img{
+    display: block;
+    margin: 0 auto;
+    height: 30em;
+    border-radius: 50%;
+}
+
+/* ///////////// */
+
+.projects{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    margin-left: 3em;
+    text-align: center;
+
+}
+.projectsText{
+    color: #fff;
+    font-size: 1.5rem
+}
+.card{
+    
+    display: inline-block;
+    height: 14em;
+    width: 20em;
+    border: 2px solid #fff;
+}
+.card a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+/* ////////////// */
+
+.contact{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    padding-left: 3em;
+}
+.formBox{
+    display: inline-block;
+    width: 50%;
+    max-width: 50%;
+    height: 100%;
+    padding: 15% 4%;
+}
+
+.form{
+    animation: formAnimate 1s ease;
+    
+}
+@keyframes formAnimate{
+    from{
+        opacity: 0;
+        transform: translate3d(0, 100%, 0)
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0,0,0)
+    }
+}
+.contactTitle h1{
+    color: #fff;
+    animation: formTitleAnimate 1s ease;
+    font-size: 3em
+}
+@keyframes formTitleAnimate{
+    from{
+        opacity: 0;
+        transform: translate3d(0, -100%, 0)
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0,0,0)
+    }
+}
+.form input{
+    height: 2.5em;
+    margin: 0px 0 6px 0;
+    border: none;
+    padding-left: 3px;
+} 
+.inputName{
+    width: 49.6%;
+}
+.inputMail{
+    width: 49.7%;
+}
+.inputTitulo{
+    width: 100%;
+}
+.inputMessage{
+    width: 100%;
+    height: 5em;
+}
+
+.contactMap{
+    position: fixed;
+    display: inline-block;;
+    height: 100%;
+    width: 55%;
+}
+
+iframe{
+    position: absolute; 
+    width: 100%; 
+    height: 100%; 
+    top: 0px; 
+    left: 0px; 
+    border: none;
+}
+
+
+/* @media all and (max-width: 1690px) { ... } */
+@media all and (max-width: 1280px) { 
+    .homeContentText {
+        padding: 80% 5%;
+    }
+    .inputName{
+        width: 100%;
+    }
+    .inputMail{
+        width: 100%;
+    }
+ }
+@media all and (max-width: 980px) { 
+    .aboutPhoto {
+        padding-top: 22%;
+    }
+    .aboutPhoto img {
+        height: 20em;
+    }
+    
+ }
+@media all and (max-width: 736px) { 
+    .homeText{
+        height: 50%;
+        width: 100%;
+        bottom: 1px;
+    }
+    .homeContentText {
+        padding: 0; 
+        height: 100%;
+        width: 100%;
+    }
+    .homeCode{
+        margin-left: 3em;
+        height: 50%;
+        width: 100%;
+    }
+    .homeCodeText p{
+        margin-top: 1em;
+    }
+    .homeCodeImg{
+        margin-top: 0.3em
+    }
+ }
+@media all and (max-width: 480px) { ... }
+ 

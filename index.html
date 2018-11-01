@@ -1,148 +1,130 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <title>Roberto Guerra</title>
-        <link rel="stylesheet"  href="css/reset.css">
-        <link rel="stylesheet" href="css/title.css">
-        <link rel="stylesheet"  href="main.css" >
-        <link rel="stylesheet" href="css/bio.css">
-        
-        <link rel="shotcurt icon" type="image/png"  href="images/OFICIAL.ico">
-        <meta name="description" content="Este site funciona como um curriculo online. Aqui farei testarei novas funcionalidades e mostrarei outros projetos.">
-        <meta name="keywords" content="portfolio, front-end, developer,">
-        
-                
-    </head>
-    <!--======== MENU DE NAVEGAÇÃO ========-->
-    <nav>
-        <div id="navbar" >
-            <a href="#sobre">Bio</a>
-            <a href="#skills">Skills</a>
-            <a href="#projetos">Projetos</a>
 
-            <a href="https://www.linkedin.com/in/umroberto/" target="blank">
-                <img src="images/linkdin.png" alt="">
-            </a>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Roberto Guerra</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+</head>
 
-            <a href="https://github.com/prosaka/" target="blank">
-                <img src="images/icons8-github-48.png" alt="">
-            </a>
+<body>
+    <div class="navBar">
+        <ul class="barList">
+            <li class="iconHome" id="home"><a href="#"><img src="images/outline_home_white_18dp.png" alt=""></a></li>
+            <li class="iconAbout" id="about"><a href="#"><img src="images/outline_account_box_white_18dp.png" alt=""></a></li>
+            <li class="iconProjects" id="projects"><a href="#"><img src="images/outline_code_white_18dp.png" alt=""></a></li>
+            <li class="iconContact" id="contact"><a href="#"><img src="images/outline_headset_white_18dp.png" alt=""></a></li>
+
+
+
+        </ul>
+        <div class="mediaLinksGroup">
+            <ul>
+                <li class="iconlinkdin mediaIcons" id="iconlinkdin"><a href="https://www.linkedin.com/in/umroberto/" target="_blank"><img
+                            src="images/linkedin.svg" alt=""></a></li>
+                <li class="iconlinkdin mediaIcons" id="iconlinkdin"><a href="https://twitter.com/ProSaka" target="_blank"><img src="images/twitter.svg"
+                            alt=""></a></li>
+                <li class="iconlinkdin mediaIcons" id="iconlinkdin"><a href="https://www.facebook.com/umroberto" target="_blank"><img
+                            src="images/facebook.svg" alt=""></a></li>
+            </ul>
         </div>
+    </div>
 
-    </nav>
-    <body >
-
-        <!--=================== IMAGEM DE FUNDO=====================-->
-
-        <section class="cont-back">
-        <section  class="background ">
-            <div class="animacao ">  
-                <span class="letter1 nome-titulo">R</span> 
-                <span class="letter2 nome-titulo">O</span>  
-                <span class="letter3 nome-titulo">B</span>
-                <span class="letter4 nome-titulo">E</span>
-                <span class="letter5 nome-titulo">R</span>
-                <span class="letter6 nome-titulo">T</span>
-                <span class="letter7 nome-titulo">O</span>
-                <span class="letter8 nome-titulo">&nbsp</span>
-                <span class="letter9 nome-titulo">G</span>
-                <span class="letter10 nome-titulo">U</span>
-                <span class="letter11 nome-titulo">E</span>
-                <span class="letter12 nome-titulo">R</span>
-                <span class="letter13 nome-titulo">R</span>
-                <span class="letter14 nome-titulo">A</span>
-            </div>    
-            <img class="scrolldown" src="images/scrolldown.png" alt="">
-        </section> 
-
-        <!--===================SOBRE MIM=====================-->
-
-        <section class="container" id="sobre">
-            <div class="sobre">
-
-                <div class="sobre-imagem">
-                    <img src="images/minhafot-remake.png" alt="Foto do Autor">
-                </div> 
-
-                <div class="sobre-descricao" >
-                    <h2 class="sobre-h2">
-                        <p class="sobre-ola">Olá,</p> meu nome é <a class="sobre-nome">Roberto Guerra</a> 
-                        <p class="sobre-p"> sou Front End developer <a  class="sobre-tag">iniciante</a></p>
-                    </h2>
-                    <hr class="linha">
-                    <p class="sobre-sub">
-                        Sempre gostei muito de computadores,<br> atualmente me dedico a aprender programação em javaScript.
-                    </p>
-
-                </div>          
-                    
-            </div> 
-            
-            </div>
-        
-        </section>
-
-        <!--=================== MINHAS SKILLS=====================-->
-        <section class="container-skills skills" id="skills">
-            <!--== Skills JavaScript ==-->
-            <div>
-                <h3 class="skills-main">JavaScript</h3>
-                <hr>
-                <a href="https://cursos.alura.com.br/certificate/88ad4587-85e8-4a74-84e1-94fa1b9d5041" target="_blank" class="skills-sub">Básico</a>
-                    
-
-            </div>
-            <!--== Skills html ==-->
-            <div>
-                <h3 class="skills-main">HTML5</h3>
-                <hr>
-                <a href="https://cursos.alura.com.br/certificate/fad9d917-a85c-4a36-a765-ce775a2bd147" target="_blank" class="skills-sub">Básico</a>
-            </div>
-            <!--== Skills CSS ==-->
-            <div >
-                <h3 class="skills-main">CSS</h3>
-                <hr>
-                <a href="https://cursos.alura.com.br/certificate/fad9d917-a85c-4a36-a765-ce775a2bd147" target="_blank" class="skills-sub">Básico</a>
-            </div>
-            <!--== Skills Jquery ==-->
-            <div >
-                <h3 class="skills-main">Jquery</h3>
-                <hr>
-                <a href="https://cursos.alura.com.br/certificate/efc32054-995f-4274-984b-cdde070dfd61" target="_blank" class="skills-sub">Básico</a>
-            </div>
-            
-
-        </section>
-
-        <!--=================== MEUS PROJETOS=====================-->    
-
-        <section class="container" id="projetos">   
-            <h3 id="borda-projetos">Meus Projetos</h3>
-            <hr class="linha-projetos">
-            <div class="projetos-varios">
-                <div class="projetos1 box-projetos">
-                    <a href="https://prosaka.github.io/offerValidator/index.html" target="_blank">
-                        <img src="images/validator.PNG" alt="">
-                    </a>
+    <div class="home itemNone">
+        <div class="contentHome">
+            <div class="homeText">
+                <div class="homeContentText">
+                    <p>Olá,</p>
+                    <p>Sou o Roberto,</p>
+                    <p>Front End Jr.</p>
                 </div>
-                <div class="projetos2 box-projetos" >
-                    
-                        <a href="https://gerazap.ga" target="_blank">
-                            <img src="images/gerazap.png" alt="">
-                        </a>
-                    </div>
             </div>
-        </section>
-        
-        <!--=================== FOOTER=====================-->
+            <div class="homeCode">
 
-        <footer class="container-footer">
-            <span class="copyright">Roberto Guerra © 2018</span>            
-        </footer>
+                    <div class="homeCodeText">
+                        <p>
+                            < CODE YOUR LIFE>
+                        </p>
+                    </div>
+                    <div class="homeCodeImg">
+                        <img src="images/programming.svg" alt="">
+                    </div>
 
-        <script type="text/javascript" src="js/script.js"></script>
+            </div>
+        </div>
+    </div>
+    <div class="about ">
+        <div class="aboutText">
+            <h1>Sobre</h1>
+            <p>
+                &nbsp; Olá meu nome é Roberto Guerra, tenho 23 anos, atualmente moro em Santana de Parnaíba/SP, curso
+                Analise e Desenvolvimento de Sistemas na Anhembi Morumbi.
+            </p>
 
-    </body>
-    
-</html>
+            <p>
+                &nbsp;Sempre gostei muito de tecnologia, vivia editando templates para blogger, mas tudo sem muito
+                profissionalismo, algumas vezes tentei estudar para a área mas sem conhecimento do que pesquisar
+                acabava deixando de lado.
+            </p>
+
+            <p>
+                &nbsp;Em maio de 2018, decidi que me dedicaria para aprender as tecnologias de Front End, conheci
+                algumas pessoas que me deram dicas sobre o que estudar e então comecei a estudar HTML, Js e Css.
+            </p>
+
+            <p>
+                &nbsp;Tenho conhecimentos em Javascript, css, html, jquery e ajax.
+            </p>
+        </div>
+        <div class="aboutPhoto">
+            <img align="center" src="images/28870350_10208810816347044_8360635568043218501_n.jpg" alt="">
+        </div>
+    </div>
+    <div class="projects itemNone">
+        <div>
+            <p class="projectsText">Alguns dos meu projetos pessoais </p>
+            <div class="card">
+                <a href="#">Em breve
+
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">Em breve
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="contact  itemNone">
+        <div class="formBox">
+            <div class="contactTitle">
+                <h1>
+                    Contato
+                </h1>
+            </div>
+            <div class="form">
+
+                <form action="mailto:prosaka@hotmail.com" method="post" enctype="text/plain">
+                    <input type="text" name="name" id="inputName" class="inputName" placeholder="Nome">
+                    <input type="text" name="mail" id="inputMail"class="inputMail" placeholder="Email">
+                    <input type="text" name="mail" id="inputTitulo" class="inputTitulo" placeholder="Titulo">
+                    <textarea name="" id="inputMessage" class="inputMessage" placeholder="Mensagem"></textarea>
+                    <button type="submit" class="btnForm">Enviar</button>
+                </form>
+
+            </div>
+        </div>
+        <div class="contactMap">
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d661861.2323889993!2d-47.126263267663894!3d-23.59352508660577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf1b48c52dac0f%3A0xef2141312043b399!2sSantana+de+Parna%C3%ADba+-+SP!5e0!3m2!1spt-BR!2sbr!4v1540738852901"
+                    width="100%" height="100%" frameborder="0" allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>     
