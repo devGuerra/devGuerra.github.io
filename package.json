@@ -27,8 +27,10 @@
   "bugs": {
     "url": "https://github.com/creativetimofficial/argon-design-system-react/issues"
   },
-  "homepage": "https://robertoguerra.dev",
+  "homepage": "https://github.com/devGuerra/devGuerra.github.io",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build && gulp licenses",
     "test": "react-scripts test",
@@ -50,6 +52,7 @@
   "dependencies": {
     "bootstrap": "4.3.1",
     "classnames": "2.2.6",
+    "gh-pages": "^3.1.0",
     "headroom.js": "0.11.0",
     "moment": "2.24.0",
     "node-sass": "4.13.1",
