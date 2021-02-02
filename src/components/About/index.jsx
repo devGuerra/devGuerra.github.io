@@ -42,6 +42,10 @@ class About extends React.Component {
                   <p>
                     Apaixonado por tecnologia e games, tenho 25 anos e atuo como desenvolvedor desde 2018.
                     </p>
+                  <p>
+                    Desenvolvedor React, com conhecimentos em ReactJs e React Native, 
+        Vtex, JavaScript, NodeJs, GraphQl, Html, Css, Sass.
+                    </p>
                   <ul className="list-unstyled mt-5">
                     <li className="py-2">
                       <div className="d-flex align-items-center">
