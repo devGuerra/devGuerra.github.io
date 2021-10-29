@@ -1,8 +1,7 @@
-
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
-import { Helmet } from 'react-helmet';
+import { Helmet } from "react-helmet";
 
 import "assets/vendor/nucleo/css/nucleo.css";
 import "assets/vendor/font-awesome/css/font-awesome.min.css";
@@ -13,6 +12,7 @@ import Landing from "views/examples/Landing.js";
 import Login from "views/examples/Login.js";
 import Profile from "views/examples/Profile.js";
 import Register from "views/examples/Register.js";
+import EuNunca from "./views/eununca.js";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -34,10 +34,7 @@ ReactDOM.render(
         content="https://robertoguerra.dev/static/media/brand-name.2c803bb3.png"
       />
       <meta property="og:type" content="website" />
-      <meta
-        property="og:title"
-        content="Robert Guerra"
-      />
+      <meta property="og:title" content="Robert Guerra" />
       <meta
         property="og:description"
         content="Desenvolvedor React, com conhecimentos em ReactJs e React Native, 
@@ -50,13 +47,9 @@ ReactDOM.render(
       <title>Roberto Guerra</title>
     </Helmet>
     <Switch>
-      <Route path="/" exact render={props => <Index {...props} />} />
+      <Route path="/" exact render={(props) => <Index {...props} />} />
 
-      {/* <Route
-        path="/landing"
-        exact
-        render={props => <Landing {...props} />}
-      /> */}
+      <Route path="/eununca" exact render={(props) => <EuNunca {...props} />} />
       {/* <Route path="/login" exact render={props => <Login {...props} />} /> */}
       {/* <Route
         path="/profile"
