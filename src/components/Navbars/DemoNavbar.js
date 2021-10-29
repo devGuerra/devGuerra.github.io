@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Link } from "react-router-dom";
 // JavaScript plugin that hides or shows a component based on your scroll
@@ -20,8 +19,10 @@ import {
   Container,
   Row,
   Col,
-  UncontrolledTooltip
+  UncontrolledTooltip,
 } from "reactstrap";
+
+import Logo from "../../assets/img/brand/brand-name.png";
 
 class DemoNavbar extends React.Component {
   componentDidMount() {
@@ -31,18 +32,18 @@ class DemoNavbar extends React.Component {
   }
   state = {
     collapseClasses: "",
-    collapseOpen: false
+    collapseOpen: false,
   };
 
   onExiting = () => {
     this.setState({
-      collapseClasses: "collapsing-out"
+      collapseClasses: "collapsing-out",
     });
   };
 
   onExited = () => {
     this.setState({
-      collapseClasses: ""
+      collapseClasses: "",
     });
   };
 
@@ -57,10 +58,7 @@ class DemoNavbar extends React.Component {
           >
             <Container>
               <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
-                <img
-                  alt="..."
-                  src={require("assets/img/brand/brand-name.png")}
-                />
+                <img alt="..." src={Logo} />
               </NavbarBrand>
               <button className="navbar-toggler" id="navbar_global">
                 <span className="navbar-toggler-icon" />
@@ -76,10 +74,7 @@ class DemoNavbar extends React.Component {
                   <Row>
                     <Col className="collapse-brand" xs="6">
                       <Link to="/">
-                        <img
-                          alt="..."
-                          src={require("assets/img/brand/brand-name.png")}
-                        />
+                        <img alt="..." src={Logo} />
                       </Link>
                     </Col>
                     <Col className="collapse-close" xs="6">

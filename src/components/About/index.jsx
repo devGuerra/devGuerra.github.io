@@ -19,6 +19,8 @@ import {
 
 import classnames from "classnames";
 
+import Profile from '../../assets/img/brand/profile.png'
+
 class About extends React.Component {
   render() {
     return (
@@ -30,7 +32,7 @@ class About extends React.Component {
                 <img
                   alt="..."
                   className="img-fluid floating  rounded-circle"
-                  src={require("assets/img/brand/profile.png")}
+                  src={Profile}
                 />
               </Col>
               <Col className="order-md-1" md="6">

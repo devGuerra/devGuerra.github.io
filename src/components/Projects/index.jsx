@@ -36,6 +36,10 @@ import {
 
 import classnames from "classnames";
 
+import Linkado from '../../assets/img/projects/linkado.jpg'
+import Nutriblue from '../../assets/img/projects/nutriblue.jpg'
+import Ciatoy from '../../assets/img/projects/ciatoy.jpg'
+
 class Projects extends React.Component {
   render() {
     return (
@@ -50,7 +54,7 @@ class Projects extends React.Component {
               <Row>
                 <Col >
                   <Card className="card-lift--hover shadow border-0">
-                    <CardImg top width="100%" src={require("assets/img/projects/linkado.jpg")} alt="Card image cap" />
+                    <CardImg top width="100%" src={Linkado} alt="Card image cap" />
                     <CardBody className="py-5">
                       <h6 className="text-primary text-uppercase ">
                         Linkado - Grupos do zap
@@ -82,7 +86,7 @@ class Projects extends React.Component {
                 </Col>
                 <Col>
                   <Card className="card-lift--hover shadow border-0">
-                    <CardImg top width="100%" src={require("assets/img/projects/nutriblue.jpg")} alt="Card image cap" />
+                    <CardImg top width="100%" src={Nutriblue} alt="Card image cap" />
                     <CardBody className="py-5">
                       <h6 className="text-primary text-uppercase">
                         Nutriblue
@@ -114,7 +118,7 @@ class Projects extends React.Component {
                 </Col>
                 <Col>
                   <Card className="card-lift--hover shadow border-0">
-                    <CardImg top width="100%" src={require("assets/img/projects/ciatoy.jpg")} alt="Card image cap" />
+                    <CardImg top width="100%" src={Ciatoy} alt="Card image cap" />
                     <CardBody className="py-5">
                       <h6 className="text-primary text-uppercase">
                         Ciatoy - Lego
