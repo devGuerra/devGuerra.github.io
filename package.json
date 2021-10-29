@@ -29,10 +29,10 @@
   },
   "homepage": "https://devGuerra.github.io",
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "CI=false npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build && gulp licenses",
+    "build": "CI=false react-scripts build && gulp licenses",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "start:app": "NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js",
