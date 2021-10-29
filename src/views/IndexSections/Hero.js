@@ -19,7 +19,7 @@ import React from "react";
 
 // reactstrap components
 import { Button, Container, Row, Col } from "reactstrap";
-
+import Logo from "../../assets/img/brand/brand-name.png";
 class Hero extends React.Component {
   render() {
     return (
@@ -47,13 +47,10 @@ class Hero extends React.Component {
                     <img
                       alt="..."
                       className="img-fluid"
-                      src={require("assets/img/brand/brand-name.png")}
+                      src={Logo}
                       style={{ width: "2000px" }}
                     />
-                    <p className="lead text-white">
-                      Coding my dreams.
-                    </p>
-
+                    <p className="lead text-white">Coding my dreams.</p>
                   </Col>
                 </Row>
               </div>
