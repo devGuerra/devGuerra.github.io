@@ -8,10 +8,6 @@ import "assets/vendor/font-awesome/css/font-awesome.min.css";
 import "assets/scss/argon-design-system-react.scss?v1.1.0";
 
 import Index from "views/Index.js";
-import Landing from "views/examples/Landing.js";
-import Login from "views/examples/Login.js";
-import Profile from "views/examples/Profile.js";
-import Register from "views/examples/Register.js";
 import EuNunca from "./views/eununca.js";
 
 ReactDOM.render(
@@ -26,6 +22,10 @@ ReactDOM.render(
         content="Desenvolvedor React, com conhecimentos em ReactJs e React Native, 
         Vtex, JavaScript, NodeJs, GraphQl, Html, Css, Sass. Atualmente trabalhando no Sem Parar, 
         onde atuo como desenvolvedor React Native em um time ágil."
+      />
+      <meta
+        name="google-site-verification"
+        content="nRsfBnEZoiz7a-qZPp54a2GRt8eqY1T-Oj2pi2BlARs"
       />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://robertoguerra.dev" />
