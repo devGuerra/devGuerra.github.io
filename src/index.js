@@ -27,6 +27,8 @@ ReactDOM.render(
         name="google-site-verification"
         content="nRsfBnEZoiz7a-qZPp54a2GRt8eqY1T-Oj2pi2BlARs"
       />
+      <meta name="yandex-verification" content="3f1829cb7de322a0" />
+
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://robertoguerra.dev" />
       <meta
